@@ -47,23 +47,21 @@ def main():
     st.markdown(
         """
         <style>
-        [class="appview-container css-1wrcr25 e1g8pov66"]{
+        [class="appview-container css-1wrcr25 egzxvld6"]{
             background-image: url('https://live.staticflickr.com/7156/6577316685_b1a1b92c59.jpg');
             background-size: cover;
         }
-        [class="css-1avcm0n e13qjvis2"]{
+        [class="css-1avcm0n e8zbici2"]{
           visibility: hidden;
         }
-        [class="css-10trblm eqr7zpz0"]{
+        [class="css-10trblm e16nr0p30"]{
             color:black;
             text-align:center;
         }
-        [class="css-1erivf3 eqdbnj015"]{
+        [class="css-z8f339 exg6vvm15"]{
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        [css-1erivf3 eqdbnj015]{
             background-color: transparent;
             border-color: transparent;
             color: black;
