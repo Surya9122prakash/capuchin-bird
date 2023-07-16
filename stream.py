@@ -64,7 +64,6 @@ def main():
             align-items: center;
             background-color: transparent;
             border-color: transparent;
-            color: black;
         }
         </style>
         """,
