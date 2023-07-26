@@ -10,7 +10,7 @@ for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 
 # Load the trained model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('model.pkl')
 
 # Helper function to load and preprocess audio files
 def load_wav_16k_mono(filename):
