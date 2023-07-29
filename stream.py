@@ -3,6 +3,7 @@ import streamlit as st
 import tensorflow as tf
 import tensorflow_io as tfio
 from itertools import groupby
+import pickle5 as pickle
 
 # Set up GPU memory growth
 gpus = tf.config.experimental.list_physical_devices("GPU")
@@ -10,7 +11,8 @@ for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 
 # Load the trained model
-model = tf.keras.models.load_model('model.pkl')
+with open('model.pkl', 'rb') as file:
+    model = pickle.load(file)
 
 # Helper function to load and preprocess audio files
 def load_wav_16k_mono(filename):
